@@ -1,0 +1,123 @@
+
+/*light mode styling*/
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+
+/*darkmode styling*/
+.dark-mode {
+    background-color: #333333;
+    color: #eeeeee;
+}
+
+
+/*knap*/
+#mode-toggle {
+    font-size: large;
+}
+
+#mode-toggle:hover {
+    background-color: lightpink;
+    transform: scale(1.05);
+}
+
+/*generel styling*/
+* {
+    margin: 15px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    transform: scale(1.05);
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+.interests {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+#horsies {
+    border-radius: 5px;
+    height: 25rem;
+}
+
+.interests_text {
+    color: white;
+    background-color: darkseagreen;
+    padding: 5px;
+    border-radius: 5px;
+    align: top;
+
+}
+
+
+.flowers {
+    display: flex;
+    font-family:'x-large'; font-size: 130px; font-weight: 1300;
+    background-image: url("https://www.marthastewart.com/thmb/3IcBvxKKC_KishgPnagdgjUBpfo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1063193808-da9b589a879749e0a2c2ba4a33dbe170.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.inmybag div {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+}
+.inmybag {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+#me {
+    height: 30rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact me {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
